@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page
 title: "Blog Topics"
 comments: true
 description: "Blog Topics Description..."
