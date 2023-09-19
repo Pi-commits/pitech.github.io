@@ -4,6 +4,7 @@ title: "Blog Topics"
 comments: true
 description: "Blog Topics Description..."
 keywords: "markdown, typography components, dummy content"
+permalink: /blog/
 ---
 
 <section class="post-list">
