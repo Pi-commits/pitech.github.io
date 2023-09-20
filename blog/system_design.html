@@ -1,19 +1,19 @@
 ---
-title: System Design
 layout: default
+title: System Design
 permalink: /system-design
 ---
 
 <section class="post-list">
   <div class="container">
-
     {% for post in site.posts %}
-      <p>{{post.tags}}</p>
       <article class="post-item">
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <div class="article-title">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a>
         </div>
       </article>
     {% endfor %}
-
   </div>
 </section>
