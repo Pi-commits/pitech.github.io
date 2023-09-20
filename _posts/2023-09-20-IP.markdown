@@ -1,0 +1,66 @@
+---
+layout: post
+title: "IP Addresses"
+comments: true
+keywords: "IP, system design, chapter1"
+date: 2023-09-20 22:37:00 +00:00
+tags: SystemDesign chapter1
+---
+
+An IP address is a unique address that identifies a device on the internet or a local network. IP stands for "Internet Protocol", which is the set of rules governing the format of data sent via the internet or local network.
+
+In essence, IP addresses are the identifier that allows information to be sent between devices on a network. They contain location information and make devices accessible for communication. The internet needs a way to differentiate between different computers, routers, and websites. IP addresses provide a way of doing so and form an essential part of how the internet works.
+
+## Versions
+
+#### IPV4
+
+The original Internet Protocol is IPv4 which uses a 32-bit numeric dot-decimal notation that only allows for around 4 billion IP addresses. Initially, it was more than enough but as internet adoption grew, we needed something better.
+
+Example: `102.22.192.181`
+
+
+#### IPV6
+
+IPv6 is a new protocol that was introduced in 1998. Deployment commenced in the mid-2000s and since the internet users have grown exponentially, it is still ongoing.
+
+This new protocol uses 128-bit alphanumeric hexadecimal notation. This means that IPv6 can provide about ~340e+36 IP addresses. That's more than enough to meet the growing demand for years to come.
+
+Example: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
+
+
+## Types of IP Addresses
+
+#### Public IP Addresses
+A public IP address is an address where one primary address is associated with your whole network. In this type of IP address, each of the connected devices has the same IP address.
+
+This type of public IP address is provided to your router by your ISP.
+
+#### Private IP Addresses
+A private IP address is a unique IP number assigned to every device that connects to your home internet network, which includes devices like computers, tablets, smartphones, which is used in your household.
+
+It also likely includes all types of Bluetooth devices you use, like printers or printers, smart devices like TV, etc. With a rising industry of internet of things (IoT) products, the number of private IP addresses you are likely to have in your own home is growing.
+
+#### Dynamic IP address
+Dynamic IP addresses always keep changing. It is temporary and are allocated to a device every time it connects to the web. Dynamic IPs can trace their origin to a collection of IP addresses that are shared across many computers.
+
+Dynamic IP addresses are another important type of internet protocol addresses. It is active for a specific amount of time; after that, it will expire.
+
+#### Static IP Addresses
+A static IP address is an IP address that cannot be changed. In contrast, a dynamic IP address will be assigned by a Dynamic Host Configuration Protocol (DHCP) server, which is subject to change. Static IP address never changes, but it can be altered as part of routine network administration.
+
+Static IP addresses are consistent, which is assigned once, that stays the same over the years. This type of IP also helps you procure a lot of information about a device.
+
+## Types of Website IP Addresses
+Two types of website IP Addresses are 1) Share IP Address 2) Dedicated IP Address
+
+#### Shared IP Addresses
+Shared IP address is used by small business websites that do not yet get many visitors or have many files or pages on their site. The IP address is not unique and it is shared with other websites.
+
+#### Dedicated IP Addresses:
+Dedicated IP address is assigned uniquely to each website. Dedicated IP addresses helps you avoid any potential backlists because of bad behavior from others on your server. The dedicated IP address also gives you the option of pulling up your website using the IP address alone, instead of your domain name. It also helps you to access your website when you are waiting on a domain transfer.
+
+
+
+
+
