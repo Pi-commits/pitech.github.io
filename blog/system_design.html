@@ -6,12 +6,21 @@ permalink: /system-design
 
 <section class="post-list">
   <div class="container">
-    {% assign posts = site.posts | where_exp: "item", "item.tags contains 'system-design'" %}
-      {% for post in posts limit:5 %}
-        <article class="post-item">
-          <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </div>
-        </article>
-      {% endfor %}
+
+    {% for post in site.posts %}
+      <p>{{post.tags}}</p>
+      <article class="post-item">
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+      </article>
+    {% endfor %}
+
+    {% assign posts = site.posts | where_exp: "item", "item.tags contains 'SystemDesign'" %}
+    {% for post in posts %}
+      <article class="post-item">
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </div>
+      </article>
+    {% endfor %}
   </div>
 </section>
