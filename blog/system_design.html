@@ -15,5 +15,17 @@ permalink: /system-design
         </div>
       </article>
     {% endfor %}
+
+    {% assign posts = site.posts | where_exp: "item", "item.tags contains 'SystemDesign'" %}
+    {% for post in posts %}
+      <article class="post-item">
+        <div class="article-title">
+          <a class="post-link" href="{{ post.url | prepend: site.url }}">
+            {{ post.title }}
+          </a>
+        </div>
+      </article>
+    {% endfor %}
+
   </div>
 </section>
