@@ -9,7 +9,7 @@ permalink: /system-design
     {% for post in site.posts %}
       <article class="post-item">
         <div class="article-title">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <a class="post-link" href="{{ post.url | prepend: site.url }}">
             {{ post.title }}
           </a>
         </div>

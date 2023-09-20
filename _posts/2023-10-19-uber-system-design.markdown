@@ -3,7 +3,7 @@ layout: post
 title: "Uber Systen Design"
 description: "Includes HLD + LLD + DB Schema + Requests"
 comments: true
-keywords: "dummy content, lorem ipsum"
+keywords: "uber, system design"
 ---
 
 ## Uber Systen Design
