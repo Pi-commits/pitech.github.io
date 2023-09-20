@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flipkart Systen Design"
+title: "Flipkart"
 description: "Includes HLD + LLD + DB Schema + Requests"
 comments: true
 keywords: "flipkart, system design"

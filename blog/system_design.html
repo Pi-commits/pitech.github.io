@@ -11,6 +11,7 @@ permalink: /system-design
     {% for post in posts %}
       <article class="post-item">
         <div class="article-title">
+          <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
           <a class="post-link" href="{{ post.url | prepend: site.url }}">
             {{ post.title }}
           </a>

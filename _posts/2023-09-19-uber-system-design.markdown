@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Uber Systen Design"
+title: "Uber"
 description: "Includes HLD + LLD + DB Schema + Requests"
 comments: true
 keywords: "uber, system design"
