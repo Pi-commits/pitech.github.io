@@ -5,12 +5,14 @@ layout: default
 
 <section class="post-list">
   <div class="container">
-    {% for post in site.system_design_posts %}
-      <article class="post-item">
-        <span class="post-meta date-label">{{ post.date | date: "%b %d %Y" }}</span>
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">System Design</a>
-        </div>
-      </article>
-    {% endfor %}
+    <article class="post-item">
+      <div class="article-title"><a class="post-link" href="{{ '/blog/system_design.html' | prepend: site.baseurl }}">System Design</a>
+      </div>
+    </article>
+    <hr>
+    <article class="post-item">
+      <div class="article-title"><a class="post-link" href="{{ '/blog/system_design.html' | prepend: site.baseurl }}">Tools and Library Docs</a>
+      </div>
+    </article>
   </div>
 </section>
