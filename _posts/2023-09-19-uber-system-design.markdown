@@ -8,5 +8,4 @@ date: 2023-09-19 23:41:00 +05:30
 tags: SystemDesign 
 ---
 
-## Uber Systen Design
 
