@@ -1,0 +1,13 @@
+---
+layout: post
+title: "OSI Model"
+comments: true
+keywords: "OSI, system design, chapter1"
+date: 2023-09-21 22:43:00 +05:30
+tags: SystemDesign chapter1
+---
+
+
+At its core, OSI structures and visualizes how data moves from one device or network to another. The main purpose of this model is to divide the complex process of computer communications into seven very distinct layers.
+
+
