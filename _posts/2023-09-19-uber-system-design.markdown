@@ -42,7 +42,7 @@ We will design our system for two types of users: Customers and Drivers.
 3. Payment processing.
 4. Metrics and analytics.
 
-<hr>
+<div class="divider"></div>
 
 ### Estimation and Constraints (Based on assumptions)
 
@@ -75,13 +75,13 @@ As our system is handling 400 GB of ingress every day, we will require a minimum
 |Storage (10 years)			 |  ~1.4 PB        |
 |Bandwidth					 | ~5 MB/s         |
 
-<hr>
+<div class="divider"></div>
 
 ### Data model design
 
-![Uber Database Design](./assets/images/uber-database.jpg)
+<img src="./assets/images/uber-database.jpg" alt="" />
 
-<hr>
+<div class="divider"></div>
 
 ### API Design
 
