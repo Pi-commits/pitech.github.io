@@ -79,7 +79,7 @@ As our system is handling 400 GB of ingress every day, we will require a minimum
 
 ### Data model design
 
-![Ubser Database Design](/assets/images/uber_database.png)
+![Ubser Database Design](/assets/images/uber-database.png)
  
 
 
