@@ -79,7 +79,72 @@ As our system is handling 400 GB of ingress every day, we will require a minimum
 
 ### Data model design
 
-![Uber Database Design](/assets/images/uber-database.jpg)
+![Uber Database Design](./assets/images/uber-database.jpg)
+
+<hr>
+
+### API Design
+
+Basic API design for our services:<br/>
+
+#### Request a Ride
+Through this API, customers will be able to request a ride.<br/>
+Request<br/>
+```requestRide(customerID: UUID, source: Tuple<float>, destination: Tuple<float>, cabType: Enum<string>, paymentMethod: Enum<string>) ```
+
+Response<br/>
+```
+
+{
+	RideDetails: {},
+	status: <enum> ('timeout', '')
+	message: <string>
+}
+
+```
+
+
+#### Cancel the Ride
+This API will allow customers to cancel the ride.<br/>
+Request<br/>
+```cancelRide(customerID: UUID, reason?: string): boolean```
+
+Response<br/>
+```Result (boolean): Represents whether the operation was successful or not.```
+
+#### Accept or Deny the Ride
+This API will allow the driver to accept or deny the trip.<br/>
+Request<br/>
+```
+acceptRide(driverID: UUID, rideID: UUID): boolean
+denyRide(driverID: UUID, rideID: UUID): boolean`
+```
+
+Response<br/>
+```Result (boolean): Represents whether the operation was successful or not.```
+
+#### Start or End the Trip
+Using this API, a driver will be able to start and end the trip.<br/>
+Request<br/>
+```
+startTrip(driverID: UUID, tripID: UUID): boolean
+endTrip(driverID: UUID, tripID: UUID): boolean
+```
+
+Response<br/>
+```Result (boolean): Represents whether the operation was successful or not.```
+
+#### Rate the Trip
+This API will enable customers to rate the trip.<br/>
+
+Request<br/>
+```rateTrip(customerID: UUID, tripID: UUID, rating: int, feedback?: string): boolean```
+
+Response<br/>
+```Result (boolean): Represents whether the operation was successful or not.```
+
+
+
  
 
 
