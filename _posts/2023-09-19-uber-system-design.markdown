@@ -48,22 +48,22 @@ We will design our system for two types of users: Customers and Drivers.
 
 #### Traffic
 
-Daily Active Users (DAU): **100 million** 
-Drivers Count: **1 million** 
-Daily Rides: **10 million** 
-On average each user performs 10 actions: **100 million X 10 = 1 billion requests/day** =~ **12k Requests/second** 
+Daily Active Users (DAU): **100 million**  
+Drivers Count: **1 million**  
+Daily Rides: **10 million**  
+On average each user performs 10 actions: **100 million X 10 = 1 billion requests/day** =~ **12k Requests/second**  
 
 #### Storage
 
-Each message takes **400 Bytes**
-Per Day: **1 billion×400 bytes=∼400 GB/day**
-10 Years: **400 GB×10 years×365 days=∼1.4 PB**
+Each message takes **400 Bytes**  
+Per Day: **1 billion×400 bytes=∼400 GB/day**  
+10 Years: **400 GB×10 years×365 days=∼1.4 PB**  
 
 #### Bandwidth
 
-As our system is handling 400 GB of ingress every day, we will require a minimum bandwidth of around 4 MB per second.
+As our system is handling 400 GB of ingress every day, we will require a minimum bandwidth of around 4 MB per second.  
 
-400/(24\*60\*60) =∼5 MB/second
+400/(24\*60\*60) =∼5 MB/second  
 
 #### High-level estimate
 
