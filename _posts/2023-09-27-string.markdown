@@ -1,22 +1,16 @@
 ---
 layout: post
-title: "Understanding Python Data Structures"
+title: "String Implementation"
 comments: true
 keywords: "learnpython"
-date: 2023-09-20 23:41:00 +05:30
+date: 2023-09-27 12:41:00 +05:30
 tags: learnpython 
 ---
 
-## Table of Content
-
-1: String [[^1]]
-2: List [[^2]]
-3: Set [[^3]]
-4: Tuple [[^4]]
-
-[^1]: ## String
+## String
 
 Strings are immutable in Python.
+**NOTE** : Objects of built-in types like (int, float, bool, str, tuple, Unicode) are immutable. Immutable objects change their memory address when they get updated
 
 ```
 
@@ -83,12 +77,6 @@ K is the ‘kind’ of string - ie the padded length of the characters in the st
 
 <br/>
 
-
-[^2]: ## Lists
-
-[^3]: ## Set
-
-[^4]: ## Tuple
 
 
 

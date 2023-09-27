@@ -1,0 +1,13 @@
+---
+layout: post
+title: "List Implementation"
+comments: true
+keywords: "learnpython"
+date: 2023-09-27 16:41:00 +05:30
+tags: learnpython 
+---
+
+## List
+
+Lists are mutable in Python.
+
