@@ -9,12 +9,12 @@ tags: learnpython
 
 ## Table of Content
 
-1. [[^String]]
-2. [[^List]]
-3. [[^Set]] 
-4. [[^Tuple]]
+1: String [[^1]]
+2: List [[^2]]
+3: Set [[^3]]
+4: Tuple [[^4]]
 
-## [^String]: String
+[^1]: ## String
 
 Strings are immutable in Python.
 
@@ -84,11 +84,11 @@ K is the ‘kind’ of string - ie the padded length of the characters in the st
 <br/>
 
 
-## [^List]: Lists
+[^2]: ## Lists
 
-## [^Set]: Set
+[^3]: ## Set
 
-## [^Tuple]: Tuple
+[^4]: ## Tuple
 
 
 
