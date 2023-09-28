@@ -8,7 +8,7 @@ permalink: /python
   <div class="container">
 
     {% assign posts = site.categories.learn-python | where_exp: "item", "item.tags contains 'learnpython'" | sort: 'date' %}
-    {% for post in posts %}
+    {% for post in posts %} 
       <article class="post-item">
         <div class="article-title">
           <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
