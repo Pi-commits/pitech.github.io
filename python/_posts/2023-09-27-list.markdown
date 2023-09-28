@@ -2,9 +2,9 @@
 layout: post
 title: "List Implementation"
 comments: true
-keywords: "learnpython"
+keywords: "python"
 date: 2023-09-27 16:41:00 +05:30
-tags: learnpython 
+tags: python 
 ---
 
 ## List
