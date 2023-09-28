@@ -7,7 +7,7 @@ permalink: /tool-and-library
 <section class="post-list">
   <div class="container">
 
-    {% assign posts = site.posts | where_exp: "item", "item.tags contains 'ToolAndLibrary'" %}
+    {% assign posts = site.categories.tools_and_libraries | where_exp: "item", "item.tags contains 'ToolAndLibrary'" %}
     {% for post in posts %}
       <article class="post-item">
         <div class="article-title">
