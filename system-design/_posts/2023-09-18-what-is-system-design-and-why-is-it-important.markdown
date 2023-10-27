@@ -4,7 +4,7 @@ title: "System Design"
 description: "What is System Design and Why is it important!"
 comments: true
 keywords: "uber, system design, chapter1"
-date: 2023-09-20 22:37:00 +05:30
+date: 2023-09-18 22:37:00 +05:30
 tags: SystemDesign chapter1
 ---
 
