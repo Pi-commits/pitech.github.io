@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Cracking Amazon"
+title: "Cracking Facebook"
 comments: true
 keywords: "general"
-date: 2023-10-31 16:45:00 +05:30
+date: 2023-10-31 16:44:00 +05:30
 tags: general 
 ---
