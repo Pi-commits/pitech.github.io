@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Microsoft Hiring Process"
+title: "Cracking Microsoft"
 comments: true
-keywords: "learnpython"
+keywords: "general"
 date: 2023-10-31 16:41:00 +05:30
 tags: general 
 ---
@@ -24,3 +24,5 @@ Usually contains 5 rounds
 1. Serialise and Deserialise BInary Tree in TC: O(N) ( Not even O(N+N) ) and SC: O(1)
 * Round 2
 1. LLD for system design, how to Upload + Download + Class Diagram + List all possible issues and how to fix them + Fault tolerence
+
+Got negative feedback after first 2 rounds.
