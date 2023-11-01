@@ -20,9 +20,9 @@ Usually contains 5 rounds
 ### Experience : OCT 2023
 
 * Screening Round.
-* Round 1
+* Round 1 :-: by Ajeet Singh
 1. Serialise and Deserialise BInary Tree in TC: O(N) ( Not even O(N+N) ) and SC: O(1)
-* Round 2
-1. LLD for system design, how to Upload + Download + Class Diagram + List all possible issues and how to fix them + Fault tolerence
+* Round 2 :-: by Mukand Agarwal
+1. LLD for system design, how to Upload + Download + Class Diagram + List all possible issues and how to fix them + Fault tolerence 
 
 Got negative feedback after first 2 rounds.
