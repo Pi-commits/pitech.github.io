@@ -1,0 +1,48 @@
+---
+layout: post
+title: "OOPs"
+description: "s"
+comments: true
+keywords: "oops, system design"
+date: 2023-09-19 23:42:00 +05:30
+tags: SystemDesign 
+---
+
+
+### 1. Classes
+
+In object-oriented programming, a class is a template definition of the methods and variables in a particular kind of object. Thus, an object is a specific instance of a class; it contains real values instead of variables.
+<br/>
+The class is one of the defining ideas of object-oriented programming. Among the important ideas about classes are:
+
+- A class can have subclasses that can inherit all or some of the characteristics of the class. In relation to each subclass, the class becomes the superclass.
+- Subclasses can also define their own methods and variables that are not part of their superclass.
+- The structure of a class and its subclasses is called the class hierarchy.
+
+### 2. Objects
+
+Object is an instance of a particular class or subclass with the class's own methods or procedures and data variables. An object is what actually runs in the computer.
+<br/>
+All individual objects possess three basic characteristics -- identity, state and behavior. Understanding these characteristics is crucial to knowing how objects and object-oriented logic work.
+
+- **Identity** means that each object has its own object identifier and can be differentiated from all other objects. Each object's name, or identity, is unique and distinct from other objects.
+- **State** refers to the properties of an object. For example, values of variables in the object contain data that can be added, changed or deleted.
+- **Behavior** refers to actions that the object can take. For example, one object can respond to another object to carry out software functions.
+
+#### Object Lifetime
+
+The object lifetime, or object lifecycle, is the series of events between the creation and destruction of an object. The length of an object's lifetime depends on the type of language used to create it, the parameters of the program and other factors.
+<br/>
+During the first stage of an object's lifetime, the constructor calculates how much space the object needs and allocates the correct amount of memory. Next, during the initialization process, the constructor creates the superclass or individual object. During the destruction process, a destructor subroutine decompiles the object and frees up the memory.
+
+### 3. Methods
+### 4. Instance
+### 5. Attributes
+### 6. Behaviors
+### 7. Classes
+### 8. Constructor
+### 9. Abstraction
+### 10. Encapsulation
+### 11. Inheritance
+### 12. Polimorphism
+
