@@ -29,20 +29,107 @@ All individual objects possess three basic characteristics -- identity, state an
 - **State** refers to the properties of an object. For example, values of variables in the object contain data that can be added, changed or deleted.
 - **Behavior** refers to actions that the object can take. For example, one object can respond to another object to carry out software functions.
 
-#### Object Lifetime
+#### 3. Object Lifetime
 
 The object lifetime, or object lifecycle, is the series of events between the creation and destruction of an object. The length of an object's lifetime depends on the type of language used to create it, the parameters of the program and other factors.
 <br/>
 During the first stage of an object's lifetime, the constructor calculates how much space the object needs and allocates the correct amount of memory. Next, during the initialization process, the constructor creates the superclass or individual object. During the destruction process, a destructor subroutine decompiles the object and frees up the memory.
 
-### 3. Methods
-### 4. Instance
-### 5. Attributes
-### 6. Behaviors
-### 7. Classes
+### 4. Methods
+
+A method is a programmed procedure that is defined as part of a class and is available to any object instantiated from that class. Each object can call the method, which runs within the context of the object that calls it. This makes it possible to reuse the method in multiple objects that have been instantiated from the same class.
+
+### 5. Instance
+
+An instance is a specific realization of any object. An object may be different in several ways, and each realized variation of that object is an instance.  
+The term 'instance' refers to an object's relationship to its class.
+
+### 6. Attributes
+
+Attributes are defined in the class template and represent the state of an object. Objects will have data stored in the attributes field. Class attributes belong to the class itself.
+
+### 7. Behaviors
+
+Behaviors, or functions, are the actions that an object can perform. These might be a range of functions that a piece of code can do in response to a query or other action
+
 ### 8. Constructor
+
+A constructor is a special method of a class or structure in object-oriented programming that initializes a newly created object of that type. Whenever an object is created, the constructor is called automatically.  
+Like __init__() function in python.  
+Like method names Area() in a class named Area() in Java.
+
 ### 9. Abstraction
+
+**Abstraction** is the process of hiding the implementation details from the user.  
+
+#### How to implement
+Can be implemented through **Abstract Class** or **Interfaces**
+
+##### Abstract Class
+- For an object to be abstract, the class itself needs to be abstract
+- Can contain abstract and non abstract objects in the class
+
+##### Interface
+- Can only contain abstract objects and not non abstract objects.
+- We can impement Interfaces in multiples classes
+
+
+#### Advantges
+- Security
+- Enhancement
+
+**Example** : Sending SMS where you type the text and send the message
+
 ### 10. Encapsulation
+
+**Encapsulation** is a way to restrict the direct access to some components of an object, so users cannot access state values for all of the variables of a particular object. Encapsulation can be used to hide both data members and data functions or methods associated with an instantiated class or object.  
+That is limiting the data members and method members of a class in a single unit.  
+
+#### How to implement
+- Declare the class variables as private
+- Declare the class methods as public so that the provate variables can be accessed/operated on through public methods if needed.
+
+#### Advantges
+- **Protect Your Data** : With encapsulation, you can keep your data and codes safe from external inheritance. For example, if any program runner tries to change the program, they can only interact with the getter and setter methods of the program. They will not have any idea to change any specific variable or data and hinder the running of the program resulting in high security.
+
+- **Easy to Test code** : The code which is encapsulated is simple to debug and easy to test for unit testing.
+
+- **Flexible** : The encapsulated code is cleaner, flexible, and easy to change as per our needs. It means we can change the code read-only or write-only by getter and setter methods.  
+For example, if you don’t define the setter method in the class then the fields can be made read-only whereas if you don’t define the getter method in the class then the fields can be made write-only.
+
+- **Easy to Reuse** : Encapsulation enables you to easily change the methods, reuse the code, and execute new requirements in your program.
+
+**Example** : Sending SMS where you type the text and send the message
+
+
 ### 11. Inheritance
-### 12. Polimorphism
+
+Inheritance is the concept in OOPs in which one class inherits the attributes and methods of another class. The class whose properties and methods are inherited is known as the Parent class. And the class that inherits the properties from the parent class is the Child class.  
+
+**Method overloading**, we can have methods with the same name but different parameters, whereas using **method overriding**, we can change the implementation of the method already defined in the parent class.  
+
+On the basis of class, There can be three types of inheritance in java: 
++ Single
++ Multilevel
++ Hierarchical  
+  
+In java programming, multiple and hybrid inheritance is supported through interface only.  
++ Multiple  (To reduce the complexity and simplify the language, multiple inheritance is not supported in java.)  
+	Class A <- Class B  
++ Hybrid
+	Class A <- Class B | Class A <- Class C, Class B <- Class D | Class C <- Class D
+
+
+
+### 12. Polymorphism (Many-Form)
+Same object having different behaviour.  
+
+There are 2 Types of Polymorphism.
++ **Compile Time Polymorphism**  
+	Achieved through Method Overloading
++ **Run Time Polymorphism**  
+	Achieved through Method Overriding
+  
+**Note** : Compile time is the period when the programming code (such as C#, Java, C, Python) is converted to the machine code (i.e. binary code). Runtime is the period of time when a program is running and generally occurs after compile time
+
 
