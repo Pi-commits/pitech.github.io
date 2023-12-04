@@ -11,7 +11,7 @@ tags: SystemDesign chapter1
 
 These patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
 <br/>
-
+<br/>
 #### Singleton
 
 **Singleton** is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
@@ -52,6 +52,7 @@ class Singleton
 * Config files
 <br/>
 
+<br/><br/>
 #### Factory Method
 
 **Factory Method** is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
@@ -190,7 +191,7 @@ if __name__ == "__main__":
 <br/>
 
 
-
+<br/><br/>
 #### Builder Method
 **Builder** is a creational design pattern, which allows constructing complex objects step by step.  
 - It’s especially useful when you need to create an object with lots of possible configuration options.  
@@ -363,13 +364,75 @@ if __name__ == "__main__":
 
 
 
-
+<br/><br/><br/>
 ### Structural patterns
 
 These patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
 <br/>
+<br/>
 
 #### Adapter Method
+
+**Adapter** is a structural design pattern that allows objects with incompatible interfaces to collaborate.
+- often used in systems based on some legacy code. In such cases, Adapters make legacy code work with modern classes.
+- Converting one type of data to another that can be used in the next function call.
+
+```python
+class Target:
+    """
+    The Target defines the domain-specific interface used by the client code.
+    """
+
+    def request(self) -> str:
+        return "Target: The default target's behavior."
+
+
+class Adaptee:
+    """
+    The Adaptee contains some useful behavior, but its interface is incompatible
+    with the existing client code. The Adaptee needs some adaptation before the
+    client code can use it.
+    """
+
+    def specific_request(self) -> str:
+        return ".eetpadA eht fo roivaheb laicepS"
+
+
+class Adapter(Target, Adaptee):
+    """
+    The Adapter makes the Adaptee's interface compatible with the Target's
+    interface via multiple inheritance.
+    """
+
+    def request(self) -> str:
+        return f"Adapter: (TRANSLATED) {self.specific_request()[::-1]}"
+
+
+def client_code(target: "Target") -> None:
+    """
+    The client code supports all classes that follow the Target interface.
+    """
+
+    print(target.request(), end="")
+
+
+if __name__ == "__main__":
+    print("Client: I can work just fine with the Target objects:")
+    target = Target()
+    client_code(target)
+    print("\n")
+
+    adaptee = Adaptee()
+    print("Client: The Adaptee class has a weird interface. "
+          "See, I don't understand it:")
+    print(f"Adaptee: {adaptee.specific_request()}", end="\n\n")
+
+    print("Client: But I can work with it via the Adapter:")
+    adapter = Adapter()
+    client_code(adapter)
+```
+
+<br/><br/>
 
 ### Behavioral patterns
 
