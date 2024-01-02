@@ -9,9 +9,12 @@ tags: dsa
 
 ### Problem Statement
 
-In Directed Acyclic Graph, find the topology sort. That is if a -> b, then in the answer list a should appear before b.
+In Directed Acyclic Graph, find the topology sort. That is if a -> b, then in the answer list a should appear before b.  
+Linear ordering of vertices such that if there is an edge between u and v, u appears before v in that ordering
 
 ### Code
+
+#### BFS
 
 ```python
 class Solution:
