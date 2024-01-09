@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Tinder Design Pattern"
+title: "Tinder"
 comments: true
 keywords: "tinder, system design"
-date: 2023-10-26 23:41:00 +05:30
+date: 2024-01-07 23:41:00 +05:30
 tags: SystemDesign chapter1
 ---
 
@@ -20,3 +20,8 @@ Store 5 images Per Profile
 #### Basic HLD Diagram
 
 <img src="{{site.url}}/assets/images/tinder_hld.jpg" alt="" />
+
+
+#### Helpful  Sources
+
+[Jolly Shrivanstava - Medium](https://medium.com/system-design-concepts/dating-application-system-design-aae411412267)

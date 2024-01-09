@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Some System Design Keywords"
+comments: true
+keywords: "Keywords, system design"
+date: 2024-01-09 23:41:00 +05:30
+tags: SystemDesign chapter1
+---
+
+
+#### Latency 
+**API latency** is the amount of time it takes for an API to respond to a request.  
+**Network latency** is the amount of time it takes for a data packet to go from one place to another.  
+**Low Latency is preferred**
