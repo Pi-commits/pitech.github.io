@@ -9,6 +9,16 @@ tags: SystemDesign chapter1
 
 
 #### Latency 
-**API latency** is the amount of time it takes for an API to respond to a request.  
-**Network latency** is the amount of time it takes for a data packet to go from one place to another.  
-**Low Latency is preferred**
+**API latency** is the amount of time it takes for an API to respond to a request.</br>
+**Network latency** is the amount of time it takes for a data packet to go from one place to another.</br>
+**Low Latency is preferred**</br>
+
+#### Fault-Tolerence 
+The ability of a system to handle failures without completely collapsing.</br>
+
+#### Availability
+High availability systems are designed to provide continuous and uninterrupted service to the end customer by using redundant software performing similar functions.</br>
+
+#### Geo-Sharding
+Geo sharding allows applications to retrieve information faster due to the shorter distance between the shard and the customer making the request.</br>
+
