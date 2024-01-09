@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Tinder Design Pattern"
+comments: true
+keywords: "tinder, system design"
+date: 2023-10-26 23:41:00 +05:30
+tags: SystemDesign chapter1
+---
+
+
+#### Requirements
+
+1. Store Profiles
+Store 5 images Per Profile  
+2. Recommend Matches
+3. Note Matches
+4. Direct 
+
+
+#### Basic HLD Diagram
+
+<img src="{{site.url}}/assets/images/tinder_hld.jpg" alt="" />
